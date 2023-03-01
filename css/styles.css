@@ -10,7 +10,7 @@
 html {
   font-size: 62.5%; /*1 rem = 10px*/
   box-sizing: border-box; /*Hack para Box-model*/
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: proximity;
 }
 /*Scroll-snap*/
 .servicios, .navegacion-principal, .formulario{
